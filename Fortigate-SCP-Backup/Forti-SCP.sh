@@ -3,8 +3,8 @@
 
 # Individual Fortigate settings 
 HOST="x.x.x.x"						# Fortigate hostname of IP (must be accessible via ssh)
-USER="admin"									# Fortigate username
-PASS="password"								# Fortigate password
+USER="admin"						# Fortigate username
+PASS="password"						# Fortigate password
 						
 
 
@@ -13,7 +13,6 @@ NOW=$(date +"_%m-%d-%Y")
 CMD=$@
 
 echo "Fortigate backup for $FW"
-echo "By Jeremy Jenkins (jeremyjenkins5 (at) gmail (dot) com)"
 echo "beginning backup...."
 
 SCRIPT=$(expect -c "
