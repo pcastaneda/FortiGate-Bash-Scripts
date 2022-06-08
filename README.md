@@ -1,6 +1,6 @@
 # FortiGate-Bash-Scripts
 
-Enable in the Firewall:
+Run this configurattion in the Fortigate to enable  SCP:
 
 config system global
 
