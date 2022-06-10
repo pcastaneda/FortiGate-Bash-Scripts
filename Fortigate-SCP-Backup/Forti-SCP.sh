@@ -12,7 +12,7 @@ PASS="password"						# Fortigate password
 NOW=$(date +"_%m-%d-%Y")
 CMD=$@
 
-echo "Fortigate backup for $FW"
+echo "Fortigate backup"
 echo "beginning backup...."
 
 SCRIPT=$(expect -c "
